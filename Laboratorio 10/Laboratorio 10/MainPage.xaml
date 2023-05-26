@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio_10.MainPage" Title="  LABORATORIO 10 - DATABINDING">
+
+    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="#656565" Spacing="25">
+        <Label Text="Bienvenidos a Mi Menu de Opciones" HorizontalOptions="Center" VerticalOptions="Center"  Padding="20" FontSize="18" TextColor="#F5F5F5"/>
+        <StackLayout HorizontalOptions="CenterAndExpand" Spacing="50">
+            <Button x:Name="Item1" Text="BindingModeDemo" Padding="20" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+            <Button x:Name="Item2" Text="ListViewDemo" Padding="25" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+            <Button x:Name="Item3" Text="PickerDemo" Padding="25" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+            <Button x:Name="Item4" Text="ViewToViewDemo" Padding="25" BorderColor="BlanchedAlmond" BorderWidth="5" CharacterSpacing="2"></Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
